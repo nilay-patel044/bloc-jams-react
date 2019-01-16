@@ -12,11 +12,24 @@ class Album extends Component {
     this.state = {
       album: album,
       currentSong: album.songs[0],
-      isPlaying: false
+      isPlaying: false,
+      opacity: 1
     };
 
     this.audioElement = document.createElement('audio');
     this.audioElement.src = album.songs[0].audioSrc;
+  }
+  getInitialState() {
+    return {
+      isMouseInside: false
+    };
+  }
+  mouseEnter = () => {
+    this.setState({ isMouseInside: true});
+  }
+
+  mouseLeave =() => {
+    this.setState({ isMouseInside: false});
   }
 
   play() {
@@ -65,16 +78,21 @@ class Album extends Component {
           {this.state.album.songs.map((song, index) =>
             <tr className="song" key={index} onClick={() => this.handleSongClick(song)} >
               <td className="song-actions">
+              <div onMouseEnter ={this.mouseEnter} onMouseLeave={this.mouseLeave}>
+                {this.state.isMouseInside ?
                 <button>
                   <span className="song-number">{index+1}</span>
                   <span className="ion-play"></span>
                   <span className="ion-pause"></span>
-                </button>
+                </button> : null
+                }
+              </div>
               </td>
               <td className="song-title">{song.title}</td>
               <td className="song-duration">{song.duration}</td>
             </tr>
           )}
+            <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
           </tbody>
         </table>
       </section>
