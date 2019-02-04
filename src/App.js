@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import { Route, Link } from 'react-router-dom';
 import './App.css';
 import Landing from './components/Landing';
@@ -12,10 +11,11 @@ class App extends Component {
       <div className="App">
       <header>
         <nav>
-          <Link to='/'>Landing</Link>
-          <Link to='/library'>Library</Link>
+            <div className ="nav-links">
+              <Link to='/'>Home   </Link>
+              <Link to='/library'>   Library </Link>
+            </div>
         </nav>
-        <h1>Bloc Jams</h1>
       </header>
       <main>
         <Route exact path="/" component={Landing} />
@@ -23,6 +23,7 @@ class App extends Component {
         <Route path="/album/:slug" component={Album} />
       </main>
       </div>
+
     );
   }
 }

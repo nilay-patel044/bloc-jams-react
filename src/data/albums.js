@@ -1,27 +1,47 @@
 export default [{
-  title: 'The Colors',
-  artist: 'Pablo Picasso',
-  releaseInfo: '1909 Spanish Records',
+  title: 'Praatah Kaala Upaasanaa',
+  artist: 'Paramguru Shreemat Karunasagar Maharaj',
+  releaseInfo: 'Gurugadi Sarsapuri',
+  pdfFILE: '/assets/images/album_covers/Praatah_Kaala_Upaasanaa.pdf',
   albumCover: '/assets/images/album_covers/01.jpg',
-  slug: 'the-colors',
+  slug: 'praatah-kaala-upaasanaa',
   songs: [
-      { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
-      { title: 'Green', duration: '103.96', audioSrc: '/assets/music/green.mp3' },
-      { title: 'Red', duration: '268.45', audioSrc: '/assets/music/red.mp3' },
-      { title: 'Pink', duration: '153.14', audioSrc: '/assets/music/pink.mp3' },
-      { title: 'Magenta', duration: '374.22', audioSrc: '/assets/music/magenta.mp3' }
+      { title: 'Mangalaa Aaratee & Shanagaara Aaratee', duration: '361.93', audioSrc: '/assets/music/Mangalaa Aaratee.mp3' },
+      { title: 'Kartaa Stuti', duration: '375.01', audioSrc: '/assets/music/Kartaa Stuti.mp3' },
+      { title: 'Pari Kramaa', duration: '317.00', audioSrc: '/assets/music/Pari Kramaa.mp3' },
+      { title: 'Guru Stuti', duration: '472.53', audioSrc: '/assets/music/Guru Stuti.mp3' },
+      { title: 'Guru Mahimaa', duration: '1314.90', audioSrc: '/assets/music/Guru Mahimaa.mp3' },
+      { title: 'Doha', duration: '238.08', audioSrc: '/assets/music/Doha.mp3' }
   ]
 }, {
-    title: 'The Telephone',
-    artist: 'Guglielmo Marconi',
-    releaseInfo: '1909 EM',
-    albumCover: '/assets/images/album_covers/02.jpg',
-    slug: 'the-telephone',
+    title: 'Sayanakal Upasana',
+    artist: 'Paramguru Shreemat Karunasagar Maharaj',
+    releaseInfo: 'Gurugadi Sarsapuri',
+    pdfFILE: '/assets/images/album_covers/Sayanakal_Upasana.pdf',
+    albumCover: '/assets/images/album_covers/03.jpg',
+    slug: 'sayanakal-Upasana',
     songs: [
-      { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
-      { title: 'Green', duration: '103.96', audioSrc: '/assets/music/green.mp3' },
-      { title: 'Red', duration: '268.45', audioSrc: '/assets/music/red.mp3' },
-      { title: 'Pink', duration: '153.14', audioSrc: '/assets/music/pink.mp3' },
-      { title: 'Magenta', duration: '374.22', audioSrc: '/assets/music/magenta.mp3' }
+      { title: 'Mangalaa Aaratee & Shanagaara Aaratee', duration: '361.93', audioSrc: '/assets/music/Mangalaa Aaratee.mp3' },
+      { title: 'Kartaa Stuti', duration: '375.01', audioSrc: '/assets/music/Kartaa Stuti.mp3' },
+      { title: 'Pari Kramaa', duration: '317.00', audioSrc: '/assets/music/Pari Kramaa.mp3' },
+      { title: 'Guru Stuti', duration: '472.53', audioSrc: '/assets/music/Guru Stuti.mp3' },
+      { title: 'Guru Mahimaa', duration: '1314.90', audioSrc: '/assets/music/Guru Mahimaa.mp3' },
+      { title: 'Doha', duration: '238.08', audioSrc: '/assets/music/Doha.mp3' }
     ]
-}];
+}, {
+      title: 'Sayanakal Upasana',
+      artist: 'Paramguru Shreemat Karunasagar Maharaj',
+      releaseInfo: 'Gurugadi Sarsapuri',
+      pdfFILE: '/assets/images/album_covers/Sayanakal_Upasana.pdf',
+      albumCover: '/assets/images/album_covers/03.jpg',
+      slug: 'sayanakal-Upasana',
+      songs: [
+        { title: 'Mangalaa Aaratee & Shanagaara Aaratee', duration: '361.93', audioSrc: '/assets/music/Mangalaa Aaratee.mp3' },
+        { title: 'Kartaa Stuti', duration: '375.01', audioSrc: '/assets/music/Kartaa Stuti.mp3' },
+        { title: 'Pari Kramaa', duration: '317.00', audioSrc: '/assets/music/Pari Kramaa.mp3' },
+        { title: 'Guru Stuti', duration: '472.53', audioSrc: '/assets/music/Guru Stuti.mp3' },
+        { title: 'Guru Mahimaa', duration: '1314.90', audioSrc: '/assets/music/Guru Mahimaa.mp3' },
+        { title: 'Doha', duration: '238.08', audioSrc: '/assets/music/Doha.mp3' }
+      ]
+  },
+];
