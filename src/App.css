@@ -36,6 +36,8 @@ nav {
   float: left;
   height: 10%;
   background-color: #F41111;
+  box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 1.00);
+
 }
 
 .nav-links {
@@ -48,6 +50,22 @@ nav {
   float: right;
   display: -ms-inline-grid;
   text-align: center;
+  font-family: 'Nunito';
+}
+
+.nav-link-main {
+  position: fixed;
+  top: 11%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  font-size: 4rem;
+  color: #19e73c;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Nunito';
+  font-weight: normal;
+  float: left;
+
 }
 
 nav a:hover {

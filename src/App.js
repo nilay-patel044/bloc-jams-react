@@ -11,6 +11,9 @@ class App extends Component {
       <div className="App">
       <header>
         <nav>
+            <div className ="nav-link-main">
+              <Link to='/'>Kaival Upasana</Link>
+            </div>  
             <div className ="nav-links">
               <Link to='/'>Home   </Link>
               <Link to='/library'>   Library </Link>

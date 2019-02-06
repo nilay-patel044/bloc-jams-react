@@ -4,7 +4,7 @@ const Landing = () => (
   <section className="landing">
     <div className="banner">
       <img className="banner-img" src='assets/images/landing.jpeg' alt="Bloc AM Banner" />
-      <h1 className="hero-title">Kaival Upasana</h1>
+
     </div>
 
    <section className="selling-points">

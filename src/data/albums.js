@@ -3,7 +3,7 @@ export default [{
   artist: 'Paramguru Shreemat Karunasagar Maharaj',
   releaseInfo: 'Gurugadi Sarsapuri',
   pdfFILE: '/assets/images/album_covers/Praatah_Kaala_Upaasanaa.pdf',
-  albumCover: '/assets/images/album_covers/01.jpg',
+  albumCover: '/assets/images/album_covers/Bhal_Tilak_Image.jpeg',
   slug: 'praatah-kaala-upaasanaa',
   songs: [
       { title: 'Mangalaa Aaratee & Shanagaara Aaratee', duration: '361.93', audioSrc: '/assets/music/Mangalaa Aaratee.mp3' },
@@ -18,7 +18,7 @@ export default [{
     artist: 'Paramguru Shreemat Karunasagar Maharaj',
     releaseInfo: 'Gurugadi Sarsapuri',
     pdfFILE: '/assets/images/album_covers/Sayanakal_Upasana.pdf',
-    albumCover: '/assets/images/album_covers/03.jpg',
+    albumCover: '/assets/images/album_covers/Bhal_Tilak_Image.jpeg',
     slug: 'sayanakal-Upasana',
     songs: [
       { title: 'Mangalaa Aaratee & Shanagaara Aaratee', duration: '361.93', audioSrc: '/assets/music/Mangalaa Aaratee.mp3' },
@@ -33,7 +33,7 @@ export default [{
       artist: 'Paramguru Shreemat Karunasagar Maharaj',
       releaseInfo: 'Gurugadi Sarsapuri',
       pdfFILE: '/assets/images/album_covers/Sayanakal_Upasana.pdf',
-      albumCover: '/assets/images/album_covers/03.jpg',
+      albumCover: '/assets/images/album_covers/Bhal_Tilak_Image.jpeg',
       slug: 'sayanakal-Upasana',
       songs: [
         { title: 'Mangalaa Aaratee & Shanagaara Aaratee', duration: '361.93', audioSrc: '/assets/music/Mangalaa Aaratee.mp3' },
