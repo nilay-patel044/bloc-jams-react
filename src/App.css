@@ -164,9 +164,9 @@ body {
   .nav-link-main {
     position: fixed;
     top: 2.0rem;
-    left: 10%;
+    left: 29%;
     transform: translate(-50%, -100%);
-    font-size: 0.2rem;
+    font-size: 1.8rem;
     color: #19e73c;
     white-space: nowrap;
     overflow: hidden;
@@ -258,9 +258,9 @@ body {
   .nav-link-main {
     position: fixed;
     top: 7%;
-    left: 19%;
+    left: 29%;
     transform: translate(-50%, -100%);
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     color: #19e73c;
     white-space: nowrap;
     overflow: hidden;
@@ -559,9 +559,9 @@ input[type=range]:focus {
     .nav-link-main {
       position: fixed;
       top: 7%;
-      left: 19%;
+      left: 29%;
       transform: translate(-50%, -100%);
-      font-size: 2.5rem;
+      font-size: 1.8rem;
       color: #19e73c;
       white-space: nowrap;
       overflow: hidden;
