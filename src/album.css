@@ -31,10 +31,13 @@
 }
 
 .pdfLoaded {
-  position: relative;
+  position: fixed;
   width: 100%;
+  margin: 30 auto;
   padding: 1rem;
-  float: center;
+  text-align: center;
+  color: white;
+  transform: scale(20);
 }
 
 .song-list {
@@ -94,6 +97,9 @@
     .album-view-title {
         margin-top: 0;
     }
+    .pdfLoaded {
+      position: fixed;
+      transform: scale(10);
 }
 
 /* #3 */

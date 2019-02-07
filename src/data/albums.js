@@ -43,5 +43,17 @@ export default [{
         { title: 'Guru Mahimaa', duration: '1314.90', audioSrc: '/assets/music/Guru Mahimaa.mp3' },
         { title: 'Doha', duration: '238.08', audioSrc: '/assets/music/Doha.mp3' }
       ]
+    }, {
+        title: 'Paramguru Jivan Charitra Chhappa',
+        artist: 'Paramguru Shreemat Karunasagar Maharaj',
+        releaseInfo: 'Gurugadi Sarsapuri',
+        pdfFILE: '/assets/images/album_covers/Paramguru Jivan Charitra Chhappa.pdf',
+        albumCover: '/assets/images/album_covers/Bhal_Tilak_Image.jpeg',
+        slug: 'paramguru-chappa',
+        songs: [
+          { title: 'Paramguru Jivan Charita Chhappa', duration: '1758.35', audioSrc: '/assets/music/Paramguru Jivan Charitra Chhappa.mp3' },
+
+        ]
+    }, {
   },
 ];

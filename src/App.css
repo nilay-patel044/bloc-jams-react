@@ -43,6 +43,7 @@ nav {
 .nav-links {
   position: fixed;
   top: 2.0rem;
+  margin-right: 20px;
   right: 2.0rem;
   color: #FAF1F1;
   font-size:1.4rem;
@@ -130,7 +131,7 @@ body {
 }
 
 .selling-points {
-  color: #fff;
+  color: blue;
   text-align: center;
   position: relative;
 }
