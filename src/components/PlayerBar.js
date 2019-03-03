@@ -7,6 +7,9 @@ class PlayerBar extends Component {
       <section className="player-bar">
         <div className="player-bar-controls">
           <section id="buttons">
+          <button id="displayPDF" onClick={this.props.displaypdfLoaded}>
+            <span className="player-icon ion-ios-book"></span>
+          </button>
             <button id="previous" onClick={this.props.handlePrevClick}>
               <span className="player-icon ion-ios-skipbackward"></span>
             </button>

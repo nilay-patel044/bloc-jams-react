@@ -23,6 +23,7 @@ class Album extends Component {
       currentTime: 0,
       duration: album.songs[0].duration,
       isPlaying: false,
+      isFileDisplayed: false,
     };
 
 
@@ -30,11 +31,7 @@ class Album extends Component {
     this.audioElement.src = album.songs[0].audioSrc;
   }
 
-  onFileChange = (event) => {
-    this.setState({
-      file: event.target.files[0],
-    });
-  }
+
 
   onDocumentLoadSuccess = ({ numPages }) => {
     this.setState({ numPages });
@@ -119,31 +116,42 @@ class Album extends Component {
     return this.state.currentSong === song && this.state.isPlaying;
   }
 
+  displaypdfLoaded() {
+     this.setState({ isFileDisplayed: !this.state.isFileDisplayed });
+  }
+
   render() {
-      const { file, numPages } = this.state;
+      const { numPages } = this.state;
       return (
         <main>
           <section className="album">
             <section id="album-info">
-              <div className="pdfLoaded">
-                <Document
-                  file={this.state.album.pdfFILE}
-                  onLoadSuccess={this.onDocumentLoadSuccess}
-                  options={options}
-                >
-                {
-                  Array.from(
-                    new Array(numPages),
-                    (el, index) => (
-                      <Page
-                        key={'page_${index + 1}'}
-                        pageNumber={index + 1}
-                      />
-                    ),
-                  )
-                }
-                </Document>
-              </div>
+
+          {
+           this.state.isFileDisplayed === false ?
+            null :
+             <div className="pdfLoaded">
+               <Document
+                 file={this.state.album.pdfFILE}
+                 onLoadSuccess={this.onDocumentLoadSuccess}
+                 options={options}
+               >
+               {
+                 Array.from(
+                   new Array(numPages),
+                   (el, index) => (
+                     <Page
+                       key={'page_${index + 1}'}
+                       pageNumber={index + 1}
+                     />
+                   ),
+                 )
+               }
+               </Document>
+             </div>
+
+          }
+
               <div className="album-details">
                 <h1 id="album-title">{this.state.album.title}</h1>
                 <h2 className="artist">{this.state.album.artist}</h2>
@@ -188,6 +196,7 @@ class Album extends Component {
       handleNextClick={() => this.handleNextClick()}
       handleTimeChange={(e) => this.handleTimeChange(e)}
       handleVolumeChange={(e) => this.handleVolumeChange(e)}
+      displaypdfLoaded={() => this.displaypdfLoaded(this.state.album.pdfFILE)}
     />
     </main>
   );

@@ -46,6 +46,9 @@
      font-size: 1.6rem;
  }
 
+.player-bar .main-controls .lyrics {
+    margin-right: 30%;
+}
  .player-bar .currently-playing {
      width: 50%;
      text-align: center;
