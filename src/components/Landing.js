@@ -10,18 +10,18 @@ const Landing = () => (
    <section className="selling-points">
      <div className="point">
       <span className="icon ion-music-note"></span>
-       <h2 className="point-title">Choose your music</h2>
-       <p className="point-description">The world is full of music; why should you have to listen to music that someone else chose?</p>
+       <h2 className="point-title">Listen to Upasana</h2>
+       <p className="point-description">Want to perform Upasana but can't rhyme?</p>
      </div>
      <div className="point">
       <span className="icon ion-wifi"></span>
-       <h2 className="point-title">Unlimited, streaming, ad-free</h2>
+       <h2 className="point-title">Unlimited & ad-free</h2>
        <p className="point-description">No arbitrary limits. No distractions.</p>
      </div>
      <div className="point">
-      <span className="icon ion-tablet-portrait"></span>
-       <h2 className="point-title">Mobile enabled</h2>
-       <p className="point-description">No arbitrary limits. No distractions.</p>
+      <span className="icon ion-ios-book"></span>
+       <h2 className="point-title">Lyrics-Enabled</h2>
+       <p className="point-description">Know how to sing, but don't know the lyrics?</p>
      </div>
    </section>
   </section>
