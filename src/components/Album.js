@@ -126,7 +126,6 @@ class Album extends Component {
         <main>
           <section className="album">
             <section id="album-info">
-
           {
            this.state.isFileDisplayed === false ?
             null :
